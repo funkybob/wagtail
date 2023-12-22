@@ -19,7 +19,7 @@ class TitleFieldPanel(FieldPanel):
         The default is ``True``. If a widget is provided with a placeholder, the widget's value will be used instead.
     :param targets: (optional) This allows you to override the default target of the field named `slug` on the form.
         Accepts a list of field names, default is ``["slug"]``.
-        Note that the slugify/urlify behaviour relies on usage of the ``wagtail.admin.widgets.slug`` widget on the slug field.
+        Note that the slugify/urlify behaviour relies on usage of the ``wagtail.admin.widgets.slug.SlugInput`` widget on the slug field.
     """
 
     def __init__(
